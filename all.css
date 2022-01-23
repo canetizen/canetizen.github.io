@@ -1,0 +1,44 @@
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align:center;
+    background-color: #1A374D;
+    padding:0.2px;
+    color:#B1D0E0;
+}
+
+nav, nav a{
+    text-align: center;
+    background-color: #1A374D;
+    top:0;
+    padding: 10px;
+    color: #B1D0E0;
+    text-decoration:none;
+}
+
+body {
+    background-color: #B1D0E0;
+    font: 13pt "Bahnschrift", sans-serif;
+    color: #1A374D;
+    margin:0;
+}
+
+p,h1 {
+    margin: 13px;
+}
+
+.links a {
+    color: #1A374D;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+.links li {
+    margin: 3px;
+}
+
+h1 {
+    text-decoration:underline;
+}
