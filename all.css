@@ -5,11 +5,11 @@ footer {
     left: 0;
     text-align:center;
     background-color: #1A374D;
-    padding:0.2px;
+    padding: 0.px;
     color:#B1D0E0;
 }
 
-nav, nav a{
+nav a , nav{
     text-align: center;
     background-color: #1A374D;
     top:0;
@@ -41,4 +41,9 @@ p,h1 {
 
 h1 {
     text-decoration:underline;
+}
+
+span.linkelement {
+    font-weight:bold;
+    margin-left:2.5em;
 }
