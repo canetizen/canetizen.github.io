@@ -1,11 +1,12 @@
 footer {
-    position: fixed;
+    position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     text-align:center;
     background-color: #1A374D;
     color:#B1D0E0;
+    font-size:19px;
 }
 
 nav a , nav{
@@ -15,6 +16,7 @@ nav a , nav{
     padding: 10px;
     color: #B1D0E0;
     text-decoration:none;
+    font-size:19px;
 }
 
 body {
@@ -22,6 +24,7 @@ body {
     font: 13pt "Bahnschrift", sans-serif;
     color: #1A374D;
     margin:0;
+    font-size:22px;
 }
 
 p,h1,table {
