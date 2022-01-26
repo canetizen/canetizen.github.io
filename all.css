@@ -7,6 +7,7 @@ footer {
     background-color: #1A374D;
     padding: 0.px;
     color:#B1D0E0;
+    width:auto;
 }
 
 nav a , nav{
@@ -16,6 +17,7 @@ nav a , nav{
     padding: 10px;
     color: #B1D0E0;
     text-decoration:none;
+    width:auto;
 }
 
 body {
