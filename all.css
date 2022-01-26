@@ -68,10 +68,3 @@ table, th, td {
 .date, .edu{
     background-color:#9fbbca;
 }
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    body {
-      background: #999;
-      width: 100%;
-    }
-  }
