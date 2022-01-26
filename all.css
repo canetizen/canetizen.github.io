@@ -53,12 +53,18 @@ span.linkelement {
     font-weight:bold;
 }
 
-.date {
-    padding-left:2em;
-}
-
 #education {
     font-weight: bold;
     font-size:2em;
     text-decoration:underline;
+}
+
+table, th, td {
+    border-style:hidden;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.date, .edu{
+    background-color:#9fbbca;
 }
