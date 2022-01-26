@@ -72,10 +72,13 @@ table, th, td {
 }
 
 @media only screen and (max-width : 400px) {
-    nav a , nav, footer {
+    nav a , nav {
         font-size:12px;
     }
     body {
         font-size:15px;
     }
-  }
+    footer {
+        font-size:12px; 
+    }
+}
