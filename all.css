@@ -67,8 +67,26 @@ table, th, td {
     border-spacing: 10px;
 }
 
-.date, .edu{
+.date {
     background-color:#9fbbca;
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.edu {
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color:#9fbbca;
+}
+
+.school {
+    color:#1A374D;
+    text-decoration:none;
+
 }
 
 @media only screen and (max-width : 400px) {
