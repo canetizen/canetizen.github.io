@@ -23,6 +23,14 @@ header {
     font-size:25px;
 }
 
+.hdrd {
+    text-decoration:underline;
+    color:#1A374D;
+    font-size:2em;
+    font-weight:bold;
+    text-align:center;
+}
+
 .navg {
     text-decoration: none;
     color:#B1D0E0;
@@ -98,7 +106,12 @@ table, th, td {
 .school {
     color:#1A374D;
     text-decoration:none;
+}
 
+/*margin-top will be changed by the time 2nd column has added.*/
+.table2 {
+    margin-top:-2.25em;
+    margin-left:4em;
 }
 
 @media only screen and (max-width : 400px) {
