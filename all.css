@@ -93,6 +93,7 @@ table, th, td {
     padding-left:10px;
     padding-top:5px;
     padding-bottom:5px;
+    text-align:center;
 }
 
 .edu {
@@ -101,6 +102,7 @@ table, th, td {
     padding-top:5px;
     padding-bottom:5px;
     background-color:#9fbbca;
+    text-align:center;
 }
 
 .school {
@@ -112,6 +114,10 @@ table, th, td {
 .table2 {
     margin-top:-2.25em;
     margin-left:4em;
+}
+
+#dspdiv {
+    display:none;
 }
 
 @media only screen and (max-width : 400px) {
@@ -127,5 +133,15 @@ table, th, td {
     }
     .foot {
         font-size:15px; 
+    }
+
+    .date, .edu{
+        width:100%;
+    }
+    #dspdiv {
+        display:contents;
+    }
+    #dsptable{
+        display:none;
     }
 }
