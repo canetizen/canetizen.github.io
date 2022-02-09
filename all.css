@@ -1,147 +1,79 @@
-footer {
-    position:absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #1A374D;
-}
-
-.foot {
-    text-align:center;
-    color:#B1D0E0;
-    font-size:20px;
-    margin:9px;
+* {
+    font-family:Arial, Helvetica, sans-serif
 }
 
 header {
-    position:fixed;
-    background-color: #1A374D;
-    right: 0;
-    left: 0;
-    top:0;
-    padding: 14px;
-    font-size:25px;
+    margin-top:-4em;
+    margin-left:57em;
+    position:absolute;
+    border-bottom-style:solid;
+    padding-bottom:10px;
 }
 
-.hdrd {
-    text-decoration:underline;
-    color:#1A374D;
-    font-size:2em;
-    font-weight:bold;
-    text-align:center;
+
+.container{
+    margin-top:5.5em;
+    margin-left:15em;
+    margin-right:15em;
+    font-size:20px;
+    margin-bottom:3em;
+    min-height: 33.76em;
 }
 
-.navg {
-    text-decoration: none;
-    color:#B1D0E0;
-}
-
-nav{
-    text-align: center;
-    color:#B1D0E0;
-}
-
-body {
-    background-color: #B1D0E0;
-    font: 13pt "Bahnschrift", sans-serif;
-    color: #1A374D;
-    font-size:22px;
-    margin-top:4em;
-}
-
-p, table {
-    margin: 13px;
-}
-
-#intro {
+.info {
     text-indent:2.5em;
 }
 
-.links a {
-    color: #1A374D;
+nav a{
+    text-decoration:none;
     font-weight:bold;
-    text-decoration:underline;
+    color:black;
+    margin-right:1em;
+    margin-left:1em;
+    font-size:23px;
+    font-style:italic;
 }
 
-.links li {
-    margin: 3px;
-}
-
-h1 {
-    text-decoration:underline;
-    margin: 13px;
-}
-
-span.linkelement {
-    font-weight:bold;
-}
-
-.resource {
-    color:#1A374D;
-    font-weight:bold;
-}
-
-table, th, td {
+table {
+    margin-left:5em;
+    text-align: center;
     border-style:hidden;
     border-collapse: separate;
     border-spacing: 10px;
 }
 
-.date {
-    background-color:#9fbbca;
-    padding-right:10px;
-    padding-left:10px;
-    padding-top:5px;
-    padding-bottom:5px;
-    text-align:center;
-}
-
-.edu {
-    padding-right:10px;
-    padding-left:10px;
-    padding-top:5px;
-    padding-bottom:5px;
-    background-color:#9fbbca;
-    text-align:center;
-}
-
-.school {
-    color:#1A374D;
+.links {
     text-decoration:none;
+    font-weight:bold;
+    color:black;
 }
 
-/*margin-top will be changed by the time 2nd column has added.*/
-.table2 {
-    margin-top:-2.25em;
-    margin-left:4em;
+.edu , .date {
+    background-color:#eeeeee;
+    padding:8px;
 }
 
-#dspdiv {
-    display:none;
+#contact {
+    margin-left:3em;
 }
 
-@media only screen and (max-width : 400px) {
-    nav {
-        font-size:17px;
-    }
-    header {
-        padding:18px;
-    }
-    body {
-        margin-top:4.5em;
-        font-size:17px;
-    }
-    .foot {
-        font-size:15px; 
-    }
+.mail {
+    font-weight:bold;
+}
 
-    .date, .edu{
-        width:100%;
-    }
-    #dspdiv {
-        display:contents;
-    }
-    #dsptable{
-        display:none;
-    }
+.footer{
+    position:relative;
+    bottom:0;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.foot {
+    font-style:italic;
+    margin-bottom:20px;
+    margin-top:20px;
+    font-weight:bold;
+    font-size:22px;
+    text-align:center;
 }
