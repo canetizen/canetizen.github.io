@@ -66,23 +66,33 @@ table {
     width:max-content;
 }
 
-.mail {
+#mail {
     font-weight:bold;
 }
 
-.footer{
+#footer{
     width:80%;
     margin-right:auto;
     margin-left:auto;
 }
 
-.foot {
+#foot {
     font-weight:bolder;
     font-size:20px;
     text-align:center;
     margin:auto;
     width:max-content;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  .terms {
+      font-weight:bold;
+      text-decoration: underline;
+  }
 
 @media only screen and (max-width : 400px) {
 
@@ -117,7 +127,7 @@ table {
         width:5px;
     }
 
-    .foot {
+    #foot {
         padding-top:3px;
         padding-bottom:3px;
         font-size:15px;
@@ -129,6 +139,4 @@ table {
         margin:auto;
         width:max-content;
     }
-
-
 }
