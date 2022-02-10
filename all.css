@@ -71,11 +71,12 @@ table {
 }
 
 .foot {
-    font-style:italic;
     font-weight:bold;
     font-size:20px;
     text-align:center;
-    margin-top:1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin:auto;
 }
 
 @media only screen and (max-width : 400px) {
@@ -109,6 +110,13 @@ table {
     
     .date {
         width:5px;
+    }
+
+    .foot {
+        padding-top:3px;
+        padding-bottom:3px;
+        font-size:17px;
+        margin:auto;
     }
 
 
