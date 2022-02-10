@@ -17,29 +17,33 @@ header {
     margin-top:5.5em;
     margin-left:15em;
     margin-right:15em;
-    font-size:20px;
+    font-size:21px;
     margin-bottom:2.5em;
-    min-height: 36em;
+    min-height: 34.5em;
 }
 
 .info {
     text-indent:2.5em;
 }
 
+h2 {
+    text-indent:1em;
+}
+
 nav a{
     text-decoration:none;
-    font-weight:bold;
+    font-weight:bolder;
     color:black;
     margin-right:auto;
     margin-left:auto;
-    font-size:23px;
+    font-size:25px;
     font-style:italic;
     padding-left:30px;
     padding-right:30px;
 }
 
 table {
-    margin-left:5em;
+    margin:auto;
     text-align: center;
     border-style:hidden;
     border-collapse: separate;
@@ -58,7 +62,8 @@ table {
 }
 
 #contact {
-    margin-left:3em;
+    margin-left:12em;
+    width:max-content;
 }
 
 .mail {
@@ -69,15 +74,14 @@ table {
     width:80%;
     margin-right:auto;
     margin-left:auto;
-    padding-top:3px;
-    padding-bottom:3px;
 }
 
 .foot {
-    font-weight:bold;
+    font-weight:bolder;
     font-size:20px;
     text-align:center;
     margin:auto;
+    width:max-content;
 }
 
 @media only screen and (max-width : 400px) {
@@ -118,6 +122,12 @@ table {
         padding-bottom:3px;
         font-size:15px;
         margin:auto;
+        width:max-content;
+    }
+
+    #contact {
+        margin:auto;
+        width:max-content;
     }
 
 
