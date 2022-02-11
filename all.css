@@ -35,13 +35,11 @@ h2 {
     text-decoration:none;
     font-weight:bolder;
     color:black;
-    margin-right:auto;
-    margin-left:auto;
+    margin-right:30px;
+    margin-left:30px;
     font-size:25px;
     font-style:italic;
-    padding-left:30px;
-    padding-right:30px;
-    width:max-content;
+    width:fit-content;
 }
 
 table {
@@ -110,8 +108,9 @@ table {
 
     .nav {
         font-size:18px;
-        padding-left:8px;
-        padding-right:8px;
+        width:fit-content;
+        margin-left: 8px;
+        margin-right: 8px;
     }
     
     #container {
