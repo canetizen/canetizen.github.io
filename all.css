@@ -96,8 +96,6 @@ table {
       text-decoration: underline;
   }
 
-  /* github attempt */
-
 @media only screen and (max-width : 400px) {
     header {
         margin-top:15px;
