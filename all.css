@@ -16,17 +16,17 @@ header {
 
 h1 {
 	font-weight:700;
-	font-size:37px;
+	font-size:35px;
 	font-style:italic;
 }
 
 h2 {
 	text-align:center;
-	font-size:40px;
+	font-size:37px;
 }
 
 h3 {
-	font-size:30px;
+	font-size:25px;
 }
 
 
@@ -37,8 +37,8 @@ body {
 nav {
     text-align:center;
     display:block;
-	margin-right:30em;
-	margin-left:30em;
+	margin-right:37em;
+	margin-left:37em;
 	padding-bottom:2em;
     border-bottom-style:solid;
     border-radius:5px;
@@ -50,7 +50,7 @@ nav {
     margin-left:1em;
     margin-right:1em;
 	font-weight:600;
-	font-size:30px;
+	font-size:27px;
 }
 
 section{
@@ -65,14 +65,14 @@ article {
 	background-color:#fefeff;
 	padding:1em;
 	color:#1B262C;
-	font-size:23px;
+	font-size:20px;
 }
 
 footer {
 	text-align:center;
     display:block;
     margin:1.6em;
-    font-size:21px;
+    font-size:17px;
 	color:#1B262C;
 	font-weight:500;
 }
@@ -86,7 +86,7 @@ footer {
 	display:inline-block;
 	margin-left:30em;
 	line-height:2em;
-	font-weight:500;
+	font-weight:600;
 }
 
 .course2{
@@ -94,7 +94,7 @@ footer {
 	display:inline-block;
 	margin-right:30em;
 	line-height:2em;
-	font-weight:500;
+	font-weight:600;
 }
 
 .contact_block {
@@ -126,7 +126,13 @@ footer {
 	margin-left:5em;
 }
 
-
+.sources {
+	line-height:2em;
+	font-weight:600;
+	display: table;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 
 @media only screen and (max-width : 500px) {
@@ -155,16 +161,16 @@ nav {
 header {
 	text-align:center;
 	margin:0px;
-	margin-top:1em;
+	margin-top:1.5em;
 	padding:0px;
 }
 
 h1 {
-	font-size:30px;
+	font-size:25px;
 	margin:0px;
 	padding:0px;
-	padding-bottom:1.5em;
-	padding-top:1.5em;
+	padding-bottom:1em;
+	padding-top:2em;
 	
 }
 
@@ -189,7 +195,7 @@ article {
 footer {
 	margin-top:1.3em;
 	margin-bottom:1.3em;
-	font-size:17px;
+	font-size:15px;
 	text-align:center;
 }
 
