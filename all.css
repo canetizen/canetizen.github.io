@@ -100,6 +100,7 @@ footer {
 }
 
 .language {
+	display:block;
 	margin-right:7px;
 	margin-left:7px;
 	float:right;
@@ -107,6 +108,83 @@ footer {
 
 
 
-@media only screen and (max-width : 400px) {
+@media only screen and (max-width : 450px) {
 
+nav {
+	margin:0px;
+	padding:0px;
+	margin:0px;
+	padding-bottom:1em;
+	padding-top:1em;
+	margin-left:1em;
+	margin-right:1em;
+
+}
+
+.nav {
+	text-align:center;
+	font-size:17px;
+	margin:0px;
+	margin-left:5px;
+	margin-right:5px;
+
+
+}
+
+header {
+	text-align:center;
+	margin:0px;
+	margin-top:1em;
+	padding:0px;
+}
+
+h1 {
+	font-size:30px;
+	margin:0px;
+	padding:0px;
+	padding-bottom:1.5em;
+	padding-top:1.5em;
+	
+}
+
+section{
+	margin-right:1em;
+	margin-left:1em;
+    display:block;
+}
+
+article {
+	font-size:18px;
+}
+
+footer {
+	margin-top:1.5em;
+	margin-bottom:1.5em;
+	font-size:17px;
+	text-align:center;
+}
+
+.language {
+	display:block;
+	margin-right:1.5em;
+	margin-left:0px;
+	float:right;
+}
+
+
+.course {
+	margin-left:0.5em;
+	margin-right:1em;
+	display:block;
+}
+
+.contact {
+    margin-left:5px;
+    margin-right:5px;
+	font-weight:600;
+	font-size:27px;
+}
+
+html, body {
+	margin:0px;
 }
