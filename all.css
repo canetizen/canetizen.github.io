@@ -16,17 +16,17 @@ header {
 
 h1 {
 	font-weight:700;
-	font-size:35px;
+	font-size:36px;
 	font-style:italic;
 }
 
 h2 {
 	text-align:center;
-	font-size:37px;
+	font-size:38px;
 }
 
 h3 {
-	font-size:25px;
+	font-size:26px;
 }
 
 
@@ -50,7 +50,7 @@ nav {
     margin-left:1em;
     margin-right:1em;
 	font-weight:600;
-	font-size:27px;
+	font-size:28px;
 }
 
 section{
@@ -65,14 +65,14 @@ article {
 	background-color:#fefeff;
 	padding:1em;
 	color:#1B262C;
-	font-size:20px;
+	font-size:22px;
 }
 
 footer {
 	text-align:center;
     display:block;
     margin:1.6em;
-    font-size:17px;
+    font-size:19px;
 	color:#1B262C;
 	font-weight:500;
 }
