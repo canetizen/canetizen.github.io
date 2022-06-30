@@ -18,6 +18,7 @@ h1 {
 	font-weight:700;
 	font-size:36px;
 	font-style:italic;
+	
 }
 
 h2 {
@@ -115,23 +116,28 @@ footer {
 	float:right;
 }
 
-.experience {
+.home {
 	display:inline-block;
-	float:right;
-	margin-right:5em;
+	margin-left:6em;
+	margin-right:6em;
+	height:auto;
+	width:auto;
+
 }
 
-.skills {
-	display:inline-block;
-	margin-left:5em;
+.home_table {
+	display:table;
+	margin-left:auto;
+	margin-right:auto;
+	
 }
 
 .sources {
 	line-height:2em;
 	font-weight:600;
 	display: table;
-	margin-right: auto;
-	margin-left: auto;
+	margin-left:auto;
+	margin-right:auto;
 }
 @media only screen and (max-width : 500px) {
 
@@ -165,7 +171,7 @@ header {
 }
 
 h1 {
-	font-size:25px;
+	font-size:23px;
 	margin:0px;
 	padding:0px;
 	padding-bottom:1em;
@@ -217,12 +223,13 @@ footer {
 	font-size:20px;
 }
 
+.home {
+	margin-left:2em;
+	margin-right:2em;
+}
+
+
 html, body {
 	margin:0px;
     overflow-x: hidden;
 }
-
-.experience, .skills {
-	display:block;
-	margin:0px;
-} 
