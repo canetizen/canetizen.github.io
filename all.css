@@ -37,13 +37,14 @@ body {
 nav {
     text-align:center;
     display:block;
-	margin-right:37em;
-	margin-left:37em;
+	margin-right:auto;
+	margin-left:auto;
 	padding-bottom:2em;
     border-bottom-style:solid;
     border-radius:5px;
     border-width:2px;
     border-color:#1B262C;
+    width:70%;
 }
 
 .nav {
@@ -82,21 +83,20 @@ footer {
 	line-height: 1.5em;
 }
 
-.course1{
+.course{
 	display:inline-block;
-	margin-left:30em;
 	line-height:2em;
 	font-weight:600;
+	margin-left:2em;
+	margin-right:2em;
 }
 
-.course2{
-	float:right;
-	display:inline-block;
-	margin-right:30em;
-	line-height:2em;
-	font-weight:600;
-}
+.course_table {
+	display:table;
+	margin-left:auto;
+	margin-right:auto;
 
+}
 .contact_block {
 	text-align:center;
 }
@@ -133,8 +133,6 @@ footer {
 	margin-right: auto;
 	margin-left: auto;
 }
-
-
 @media only screen and (max-width : 500px) {
 
 nav {
@@ -143,8 +141,9 @@ nav {
 	margin:0px;
 	padding-bottom:1em;
 	padding-top:1em;
-	margin-left:1em;
-	margin-right:1em;
+	margin-left:auto;
+	margin-right:auto;
+    width:95%;
 
 }
 
@@ -206,12 +205,9 @@ footer {
 	float:right;
 }
 
-.course1{
+.course{
 	margin-left:1em;
-}
-
-.course2{
-	margin-right:1em;;
+	margin-right:1em;
 }
 
 .contact {
