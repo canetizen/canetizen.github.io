@@ -7,6 +7,13 @@ a {
 	color:#1B262C;
 }
 
+html {
+    zoom: 0.95; /* Old IE only */
+    -moz-transform: scale(0.95);
+	-webkit-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
 header {
 	padding-top:3em;
 	padding-bottom:2.5em;
@@ -28,6 +35,12 @@ h2 {
 
 h3 {
 	font-size:22px;
+}
+
+.list {
+	line-height:2em;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 
@@ -236,4 +249,11 @@ body {
 html, body {
 	margin:0px;
     overflow-x: hidden;
+}
+
+html {
+    zoom: 1; /* Old IE only */
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
