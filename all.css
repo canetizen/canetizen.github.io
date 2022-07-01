@@ -7,12 +7,6 @@ a {
 	color:#1B262C;
 }
 
-html {
-    zoom: 0.95; /* Old IE only */
-    -moz-transform: scale(0.95);
-	-webkit-transform: scale(0.95);
-    transform: scale(0.95);
-}
 
 header {
 	padding-top:3em;
@@ -249,11 +243,4 @@ body {
 html, body {
 	margin:0px;
     overflow-x: hidden;
-}
-
-html {
-    zoom: 1; /* Old IE only */
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
-    transform: scale(1);
 }
