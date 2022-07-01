@@ -7,7 +7,6 @@ a {
 	color:#1B262C;
 }
 
-
 header {
 	padding-top:3em;
 	padding-bottom:2.5em;
@@ -66,8 +65,8 @@ nav {
 
 section{
 	margin-top:2em;
-	margin-right:2em;
-	margin-left:2em;
+	margin-right:5em;
+	margin-left:5em;
     display:block;
     margin-bottom:auto;
 }
