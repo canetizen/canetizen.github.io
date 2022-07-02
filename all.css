@@ -15,6 +15,10 @@ header {
 	color:#1B262C;
 }
 
+.date {
+	font-weight:600;
+}
+
 h1 {
 	font-weight:700;
 	font-size:28px;
