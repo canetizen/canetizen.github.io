@@ -77,7 +77,10 @@ section{
 
 article {
 	background-color:#fefeff;
-	padding:1em;
+	padding-top:1em;
+	padding-left:2.5em;
+	padding-right:2.5em;
+	padding-bottom:1em;
 	color:#1B262C;
 	font-size:18px;
 }
