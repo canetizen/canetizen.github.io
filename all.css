@@ -155,7 +155,7 @@ footer {
 	display: table;
 	margin-left:auto;
 	margin-right:auto;
-	width:max-content;
+	width:fit-content;
 }
 @media only screen and (max-width : 500px) {
 
