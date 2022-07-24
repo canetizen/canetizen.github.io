@@ -10,7 +10,7 @@ a {
 header {
 	padding-top:3em;
 	padding-bottom:2.5em;
-	padding-left:7em;
+	padding-left:8em;
 	padding-right:7em;
 	color:#1B262C;
 }
@@ -23,7 +23,7 @@ h1 {
 
 h2 {
 	text-align:center;
-	font-size:28px;
+	font-size:26px;
 }
 
 h3 {
@@ -85,7 +85,7 @@ footer {
 	text-align:center;
     display:block;
     margin:1.6em;
-    font-size:15px;
+    font-size:14px;
 	color:#1B262C;
 	font-weight:500;
 }
